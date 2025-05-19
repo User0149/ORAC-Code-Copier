@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "ORAC Code Copy Button",
+    "version": "1.0",
+    "description": "Copy your code without exponential spaces",
+    "content_scripts": [
+      {
+        "js": ["script.js"],
+        "matches": [
+          "https://orac2.info/*",
+          "https://orac.amt.edu.au/*"
+        ]
+      }
+    ]
+  }
